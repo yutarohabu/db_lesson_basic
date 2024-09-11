@@ -49,3 +49,6 @@ UPDATE people SET department_id = 5 WHERE department_id IS NULL;
 
 -- Q5
 SELECT name, age FROM people WHERE gender = 1 ;
+
+-- Q6
+peopleのテーブルから部署IDが1のレコードを作成日時で重複する物を除いて、名前、メールアドレス、年齢を取得する。
