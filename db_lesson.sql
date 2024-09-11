@@ -43,3 +43,6 @@ VALUES
  (22,'く結合練習用。日報です。'),
  (25,'け結合練習用。日報です。'),
  (27,'こ結合練習用。日報です。');
+
+--  Q4
+UPDATE people SET department_id = 5 WHERE department_id IS NULL;
