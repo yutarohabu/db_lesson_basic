@@ -46,3 +46,6 @@ VALUES
 
  --  Q4
 UPDATE people SET department_id = 5 WHERE department_id IS NULL;
+
+-- Q5
+SELECT name, age FROM people WHERE gender = 1 ;
